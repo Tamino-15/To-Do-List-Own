@@ -1,0 +1,163 @@
+body {
+
+    margin-top: 0.5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #848991 50%, #acb4b6 100%);
+    background-repeat: no-repeat;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    height: 7.5%;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.navbar a {
+    height: 66%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    width: 50%;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+#input {
+    margin-top: 1vh;
+    width: 100%;
+    display: flex;
+    height: 6vh;
+    flex-direction: row;
+    align-items: center;
+    background-color: #555;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    color: white;
+}
+
+
+#text {
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: right;
+    width: 77.5%;
+    margin-right: 2.5%;
+    background-color: #04AA6D;
+    margin-left: 2.5%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+::placeholder{
+    color: white;
+}
+#add-btn, #save-todo-btn {
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: right;
+    width: 15%;
+    border-radius: 5px;
+    border-color: #04AA6D;
+    background-color: #04AA6D;
+    border-style: solid;
+    color: white;
+    margin-right: 2.5%;
+}
+#add-btn:hover{
+    border-color: #1bc788;
+    background-color: #1bc788;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#save-todo-btn:hover{
+    border-color: #1bc788;
+    background-color: #1bc788;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+/* ========================== thingsToDo div ========================== */
+#thingsToDo {
+    margin-top: 1vh;
+    width: 100%;
+}
+.newContainer{
+    width: 100%;
+    display: flex;
+    height: 5vh;
+    flex-direction: row;
+    align-items: center;
+    background-color: #04AA6D;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    color: white;
+}
+.tasklist{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: right;
+    width: 60%;
+    margin-right: 2.5%;
+    background-color: #555;
+    margin-left: 2.5%;
+    border-radius: 5px;
+}
+.Delete-btn, .edit-btn{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: right;
+    width: 15%;
+    border-radius: 5px;
+    border-color: #555;
+    background-color: #555;
+    border-style: solid;
+    color: white;
+    margin-right: 2.5%;
+    
+}
+
+.Delete-btn:hover{
+    border-color: #848991;
+    background-color: #848991;
+    border-style: solid;
+    cursor: pointer;
+}
+.edit-btn:hover{
+    border-color: #848991;
+    background-color: #848991;
+    border-style: solid;
+    cursor: pointer;
+}
